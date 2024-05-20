@@ -457,6 +457,7 @@ header {
 
 /*benefits*/
 .benefits {
+    position: relative;
     width: 700px;
     height: 210px;
     margin-left: 505px;
@@ -472,10 +473,10 @@ header {
 }
 
 .benefits-ghost-text {
-    position: relative;
+    position: absolute;
     font-family: Bachelorette, serif;
     color: #ffffff;
-    top: -85%;
+    top: 19%;
     left: -7.5%
 }
 
@@ -1207,6 +1208,10 @@ header {
 .form-text li:hover {
     cursor: pointer;
     color: #8C8C8C
+}
+
+.form-text ul {
+    padding-left: 0;
 }
 
 .form-text-contact {
