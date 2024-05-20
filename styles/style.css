@@ -51,7 +51,7 @@ body {
     transform: scale(4.26);
     max-width: 426px;
     max-height: 426px;
-    top: 79.5%;
+    top: 78.8%;
     right: 28%;
 }
 
@@ -835,7 +835,7 @@ header {
 }
 
 .info-image-small {
-    margin-bottom: 40px;
+    margin-bottom: 33px;
 }
 
 .info-images-text {
@@ -909,8 +909,8 @@ header {
 
 .arrow-3 {
     position: absolute;
-    top: 37%;
-    left: 58%
+    top: 39.5%;
+    left: 57.5%
 }
 
 .intersect-3 {
@@ -1030,7 +1030,7 @@ header {
 
 .q-3 {
     position: absolute;
-    top: 38.8%;
+    top: 41.4%;
     left: 65.7%
 }
 
@@ -1111,7 +1111,7 @@ header {
 
 .q-2 {
     position: absolute;
-    top: 81.5%;
+    top: 83.5%;
     left: 40.8%;
 }
 
@@ -1125,7 +1125,7 @@ header {
 
 .side-text-6 {
     position: absolute;
-    top: 197.5%;
+    top: 199.3%;
     right: -14.1%;
     transform: rotate(90deg);
     font-family: HelveticaNeue, serif;
@@ -1391,6 +1391,12 @@ footer {
 
 .five {
     margin-top: 90px;
+    position: relative;
+    width: 100%;
+    background-color: #1F3832;
+}
+
+.six {
     position: relative;
     width: 100%;
     background-color: #1F3832;
