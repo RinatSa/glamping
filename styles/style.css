@@ -19,7 +19,7 @@ body {
     color: #1F3832;
     max-width: 100%;
     background-image: linear-gradient(180deg, #F3EDDF 0px, #F3EDDF 5300px, #C8E8C3 5300px,
-    #C8E8C3 7480px, #F3EDDF 7480px, #F3EDDF 14000px);
+    #C8E8C3 51.82%, #F3EDDF 51.82%, #F3EDDF 14000px);
 }
 
 
@@ -47,8 +47,8 @@ body {
     position: absolute;
     transition: 1s;
     transform: scale(4.26);
-    top: 10730px;
-    right: 30%;
+    top: 1230%;
+    right: 20%;
 }
 
 li {
