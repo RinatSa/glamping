@@ -20,7 +20,7 @@ body {
     color: #1F3832;
     max-width: 100%;
     max-height: 100%;
-    background-image: linear-gradient(180deg, #F3EDDF 0px, #F3EDDF 5300px, #C8E8C3 5300px,
+    background-image: linear-gradient(180deg, #F3EDDF 0px, #F3EDDF 5270px, #C8E8C3 5270px,
     #C8E8C3 51.82%, #F3EDDF 51.82%, #F3EDDF 100%);
 }
 
@@ -227,19 +227,18 @@ header {
 /*running text*/
 
 .running-text {
+    position: absolute;
     width: 100%;
     white-space: nowrap;
-    position: relative;
     z-index: -1;
+    top: -22%;
 }
 
 .running-text-one {
     display: inline-block;
-    padding-top: 98px;
     font-size: 144px;
     text-transform: uppercase;
     color: #C8E8C3;
-    position: absolute;
     white-space: nowrap;
     animation: bezici-animace 100s linear infinite;
 }
@@ -268,7 +267,8 @@ header {
 }
 
 .info-box {
-    padding-top: 188px;
+    position: relative;
+    margin-top: 188px;
 }
 
 .info-box-text {
@@ -277,7 +277,7 @@ header {
 
 
 .info-box-text div {
-    padding-top: 273px;
+    padding-top: 213px;
     padding-left: 144px;
     font-size: 18px;
     width: 387px;
@@ -287,7 +287,7 @@ header {
 
 .q {
     position: relative;
-    top: 300px;
+    top: 240px;
     left: 120px
 }
 
@@ -389,6 +389,7 @@ header {
 }
 
 .popularity-info-two {
+    position: relative;
     font-size: 18px;
     color: #1F3832;
     width: 483px;
@@ -401,9 +402,8 @@ header {
 }
 
 .q2 {
-    position: relative;
-    top: 22px;
-    left: -27px
+    position: absolute;
+    left: 230px
 }
 
 .growing-line {
@@ -628,7 +628,7 @@ header {
 
 .invest-text-info {
     position: relative;
-    margin-top: 21px;
+    margin-top: 10px;
     display: flex;
     font-size: 16px;
     line-height: 26px;
@@ -639,7 +639,7 @@ header {
 .arrow-2 {
     position: absolute;
     top: 13%;
-    left: 32%
+    left: 30%
 }
 
 .invest-text-one {
