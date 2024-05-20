@@ -51,8 +51,8 @@ body {
     transform: scale(4.26);
     max-width: 426px;
     max-height: 426px;
-    top: 79%;
-    right: 24%;
+    top: 79.5%;
+    right: 28%;
 }
 
 li {
@@ -459,7 +459,6 @@ header {
 .benefits {
     position: relative;
     width: 700px;
-    height: 210px;
     margin-left: 505px;
     margin-top: 120px;
     margin-bottom: 90px;
@@ -476,8 +475,9 @@ header {
     position: absolute;
     font-family: Bachelorette, serif;
     color: #ffffff;
-    top: 19%;
-    left: -7.5%
+    top: 24%;
+    left: -7.5%;
+    line-height: 37px;
 }
 
 .side-text-2 {
