@@ -12,7 +12,7 @@ function scrollFunction() {
         scrollButton.style.display = "none";
     }
 
-    if (document.body.scrollTop > 10570 || document.documentElement.scrollTop > 10570) {
+    if (document.body.scrollTop > 10770 || document.documentElement.scrollTop > 10770) {
         scrollButton.classList.add("active");
     } else {
         scrollButton.classList.remove("active");
