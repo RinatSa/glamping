@@ -94,9 +94,3 @@ let starsObserver = new IntersectionObserver((entries, observer) => {
 })
 
 starsObserver.observe(document.getElementById("my-stars"))
-
-window.addEventListener('scroll', function() {
-    let scroll = window.scrollY;
-    let parallaxImage = document.querySelector('.parallax-image');
-    parallaxImage.style.transform = 'translateY(' + scroll * -0.5 + 'px)';
-});

@@ -1214,9 +1214,10 @@ header {
 }
 
 .form-text-contact {
+    position: relative;
     width: 427px;
     height: 338px;
-    margin-top: 90px;
+    margin-top: 42px;
     font-size: 16px;
     font-family: HelveticaNeue, serif;
     font-weight: 400;
@@ -1224,7 +1225,7 @@ header {
 
 .form-text-contact input {
     width: 427px;
-    height: 44px;
+    height: 64px;
     padding-top: 20px;
     background-color: #1F3832;
     border: none;
@@ -1297,6 +1298,25 @@ textarea {
     position: absolute;
     top: 36%;
     left: 83.5%;
+}
+
+.side-text-7, .side-text-8 {
+    position: relative;
+    top: 47%;
+    left: -61%;
+    transform: rotate(-90deg);
+    font-family: HelveticaNeue, serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 26px;
+}
+
+.side-text-8 {
+    top: 96%;
+    left: -63%;
+    transform: rotate(90deg);
 }
 
 /*footer*/
